@@ -63,7 +63,7 @@ class NewsViewModel: ObservableObject {
 
 //        "https://newsapi.org/v2/top-headlines?country=us&apiKey=97a7d4d8225e42c78d17a087b1c3181b"
  //   https://newsapi.org/v2/top-headlines?country=us&apiKey=f1045f85212d435a855a70e99532b81b
-        guard let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=f1045f85212d435a855a70e99532b81b") else {
+        guard let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=97a7d4d8225e42c78d17a087b1c3181b") else {
             print("Invalid URL")
             return
         }
